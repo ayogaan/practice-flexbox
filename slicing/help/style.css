@@ -1,0 +1,50 @@
+nav{
+    background-color: #143642;
+}
+
+section{
+    display: flex;
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 200px;
+    margin-bottom: 100px;
+    flex-direction: column;
+    padding: 20px;
+  
+}
+
+section form{
+    padding: 50px;
+    min-width: 500px;
+    border: solid gray 1px;
+    border-radius: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.input-wrapper{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+input, textarea{
+    width: 70%;
+}
+
+form label{
+    width: 30%;
+}
+
+input, textarea{
+    padding: 8px;
+    border-radius: 8px;
+    border:solid gray 1px;
+}
+
+.input-wrapper-submit{
+    display: flex;
+    margin: 0 auto;
+}

@@ -1,0 +1,59 @@
+.feeds{
+    margin-top:100px;
+}
+
+nav{
+    background-color: #143642;
+}
+
+section{
+    display: flex;
+    width: 70%;
+    flex-direction: column;    
+    margin: 0 auto;
+    margin-top:200px;
+}
+
+.container-findus{
+    
+    display: flex;
+    width: 100%;
+
+}
+
+.container-findus{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.map-wrapper, .desc {
+    width: 50%;
+}
+
+.map-wrapper {
+
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.map-wrapper img{
+    border-radius: 20px;
+    filter: drop-shadow(2px 2px 1px gray);
+}
+
+.card{
+    border: solid gray 1px;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    filter: drop-shadow(2px 2px 1px gray);
+}
+
+.find-us{
+    margin-bottom: 50px;
+}
