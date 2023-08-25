@@ -1,8 +1,17 @@
+html {
+    scroll-behavior: smooth;
+  }
 body{
     margin: 0;
     padding: 0;
     font-family: sans-serif;
 }
+
+nav a{
+    color: white;
+    text-decoration: none;
+}
+
 nav{
     background-color: black;
     padding-left: 30px;
@@ -115,6 +124,11 @@ section{
 .footer li {
     list-style: none;
     margin-bottom: 12px;
+}
+
+.footer a{
+    color: white;
+    text-decoration: none;
 }
 
 .logo-footer{
