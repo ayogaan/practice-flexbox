@@ -26,16 +26,14 @@
                 result = "Fizz";
             } else if (num % 5 === 0) {
                 result = "Buzz";
-            }
-            if(result !== ""){
-                const listItem = document.createElement("li");
-                listItem.textContent = result;
-                if(result === "Invalid input"){
+              
+            const listItem = document.createElement("li");
+            listItem.textContent = result === "" ? num : result;
+            if(result === "Invalid input"){
                     listItem.style.color = "red";
-                }
-                const list = document.getElementById("result");
-                list.appendChild(listItem);
             }
+            const list = document.getElementById("result");
+            list.appendChild(listItem);
 
         }
     </script>
